@@ -5,7 +5,7 @@ Build
   --build-arg DAEMON_NAME=haqqd \
   --build-arg COSMOVISOR_VERSION=v1.7.1 \
   --build-arg BINARY_URL="https://github.com/haqq-network/haqq/releases/download/v1.8.5/haqq_1.8.5_linux_amd64.tar.gz" \
-  -t haqqd-cosmovisor:1.0 .
+  -t haqqd-cosmovisor:1.0 .```
 
 Run
 ```mkdir -p /srv/nodes/haqq/haqqd-main
